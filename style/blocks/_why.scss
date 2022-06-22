@@ -1,0 +1,20 @@
+.why {
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #666666;
+    padding: 108px 0;
+}
+.why__hello {
+    margin-bottom: 55px;
+}
+
+.why__hello-title {
+    margin-bottom: 21px;
+}
+.why__hello-text {
+    padding: 0 26%;
+    font-size: 18px;
+}

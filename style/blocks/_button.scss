@@ -1,0 +1,38 @@
+.button {
+    display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: max-content;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 21px 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    line-height: 1;
+    border: none;
+    
+
+    &--yellowth {
+        background-color: #FEDB3F;
+        color: black;
+
+        &:hover {
+            color: #FEDB3F;
+            background-color: #fff;
+        }
+    }
+
+    &--transparent {
+		background-color: transparent;
+		color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+		text-transform: none;
+	}
+}
+
+.form__buttons {
+    margin-top: 22px;
+	display: flex;
+}
